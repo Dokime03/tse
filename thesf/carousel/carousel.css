@@ -78,23 +78,30 @@ margin-top: 80px;
 	
 	.hov {
 	background-image:url("bm.jpg");
+	background-repeat:no-repeat;
 	 !important}
 	
 	.hov:hover {
 background-image:url("inv.png");
 }
+.bck {
+	background-image:url("med4.png");
+	 !important}
 
 .an {
-    width: 200px;
+    
    
     background-image: url('bm.jpg');
     background-repeat: none;}
 	.an:hover {
-    width: 200px;
+   
    
     background-image: url('inv.png');
     background-repeat: none;}
 	
+	.bord {
+	margin: 0;padding: 5px;border: 2px solid black;font-size: 100%;font: inherit;vertical-align: baseline; 
+	}
 @font-face
 {
 font-family:corbert;
